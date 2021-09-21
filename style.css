@@ -161,10 +161,12 @@ img {
 
   #why >.row> .first {
     margin-top: 30px;
+    border-bottom: 2px solid black;
   }
   
   #why >.row> .second {
     margin-top: 30px;
+    border-bottom: 2px solid black;
   }
   #why >.row> .third {
     margin-top: 30px;
@@ -175,7 +177,7 @@ img {
     width: 130px;
   }
 
-  /* #why hr {
-    color: black;
-  } */
+  hr {
+    display: none;
+  }
 }
